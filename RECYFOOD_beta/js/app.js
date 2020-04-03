@@ -19,12 +19,13 @@ const App = () => {
                 <header>
                     <div className="container">
                         <div className="hamburger_menu">
-                            <button className="hamburger_button">{/*<HamburgerMenu/>*/}</button>
+                            <button className="hamburger_button"></button>
+                            {/*<HamburgerMenu/>*/}
                         </div>
                             <nav className="desktop_menu">
                                 <ul className="hyperlink">
                                     <li><NavLink to="/">GŁÓWNA</NavLink></li>
-                                    <li><NavLink to="/about">O STRONIE</NavLink></li>
+                                    <li><NavLink to="/about">O APLIKACJI</NavLink></li>
                                     <li><NavLink to="/howdoesitwork">JAK TO DZIAŁA?</NavLink></li>
                                     <li><NavLink to="/contact">KONTAKT</NavLink></li>
                                 </ul>

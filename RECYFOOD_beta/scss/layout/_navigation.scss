@@ -1,0 +1,45 @@
+.nav_content {
+  text-align: center;
+  padding: 0 14vw;
+  position: relative;
+  @include large {
+    padding: 0 22vw;
+  }
+}
+.nav_background{
+  background-image: url("./../images/paper_pulled2.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: 0.8;
+}
+.nav_elements{
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //padding: 0 14vw ;
+}
+.nav_header{
+  font-size: 30px;
+  margin-bottom: 1vh;
+  color: #562a18;
+}
+.nav_description{
+  font-size: 3.3vw;
+  color: #333030;
+  margin-bottom: 2vh;
+  text-align: center;
+  @include desktop{
+    font-size: 4vh;
+  }
+  p{
+    margin-bottom: 1vw;
+  }
+}
+.last{
+  text-decoration: underline #4b3030;
+}
