@@ -19,15 +19,12 @@ const About = () => {
                             <p>Jeśli chcesz przyrządzić posiłek z produktów,
                                 które zawsze masz w domu</p>
                             <p className="last">- Ta aplikacja jest dla Ciebie!</p>
-
                         </div>
                     </div>
                 </div>
             </section>
             <footer>
-                <div className="footer">
-
-                </div>
+                <div className="footer"> </div>
             </footer>
         </>
     )
