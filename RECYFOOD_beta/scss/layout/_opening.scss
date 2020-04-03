@@ -104,8 +104,12 @@
   font-family: $handed-font;
   margin-right: 7vw;
   margin-left: 7vw;
+  font-size: 4vw;
   @include desktop {
     font-size: 22px;
+  }
+  @include between{
+    font-size: 3vw;
   }
 }
 .next_button{
