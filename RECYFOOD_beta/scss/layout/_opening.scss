@@ -1,0 +1,123 @@
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  @include desktop{
+    justify-content: flex-end;
+  }
+}
+.hyperlink{
+  li {
+    a {
+      color: #333030;
+    }
+  }
+}
+.hamburger_button{
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255,255,255,0.1);
+  background-image: url("./../images/burger.png");
+  background-position: center;
+  background-size: contain;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px rgba(126, 87, 17, 0.7);
+  margin-left: 10vw;
+/*  :after{
+    content: url("./../images/burger.png") ;
+    width: 50px;
+    height: 50px;
+  }*/
+}
+.desktop_menu{
+  display: none;
+}
+
+@include desktop{
+  .hamburger_menu{
+    display: none;
+  }
+  .desktop_menu{
+    display: block;
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        padding: 0 5vw;
+        text-align: center;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.banner{
+  width: 96%;
+  height: 100%;
+  background-image: url("./../images/wooden_board.jpg");
+  background-size: cover;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //z-index: 1111111;
+}
+.banner_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.banner_text{
+  font-family: $main-font;
+  font-size: 22vw;
+  margin-top: 50px;
+}
+.left_part{
+  //color: #8b8687;
+  color: #333030;
+}
+.right_part{
+  color: darkslategrey;
+}
+.banner_subtext{
+  font-family: $handed-font;
+  font-size: 4vw;
+  color: #555251;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer_slogan{
+  font-family: $handed-font;
+  margin-right: 7vw;
+  margin-left: 7vw;
+  @include desktop {
+    font-size: 22px;
+  }
+}
+.next_button{
+  text-decoration: none;
+  margin-right: 10vw;
+  font-size: 25px;
+  color: #333030;
+  padding: 21px 18px;
+  border-radius: 50px;
+  background-color: rgba(255,255,255,1);
+  box-sizing: initial;
+  border: 10px solid rgba(126, 87, 17, 0.7);
+  //box-shadow: 5px 5px 8px 0px rgba(115,110,115,1) inset;
+  box-shadow: 1px 1px 5px 4px rgba(215,215,215,1) inset;
+}

@@ -1,0 +1,40 @@
+
+
+.egg{
+  position: absolute;
+  right: 80vw;
+  bottom: 25vh;
+  width: 100px;
+  height: 100px;
+  background-image: url("./../images/fried-egg.png");
+  background-size: contain;
+  animation-name: move, rot;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  transform-origin: 50% 50%;
+  transition: 1s;
+}
+
+@keyframes move {
+  100% {
+    right: 0;
+  }
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

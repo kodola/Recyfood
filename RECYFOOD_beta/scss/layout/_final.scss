@@ -1,0 +1,55 @@
+.recipe {
+ // text-align: center;
+  padding: 6vw;
+  position: relative;
+}
+.recipe_napkin{
+  background-image: url("./../images/checked_material.jpg");
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.7;
+}
+.recipe_elements{
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 1px 1px 5px 4px rgba(255,255,255,0.7);
+}
+.recipe_name{
+  font-size: 45px;
+  margin-bottom: 1vh;
+  color: #d8529f;
+}
+.recipe_funny{
+  font-size: 20px;
+  color: #827e7e;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+.recipe_ingredients{
+  font-size: 25px;
+  margin-bottom: 3vh;
+  text-align: center;
+  li{
+    padding: 5px 0;
+  }
+}
+.recipe_method{
+  font-size: 25px;
+  margin-bottom: 2vh;
+  padding: 2px 0;
+  text-align: center;
+ /* li {
+    list-style-type: decimal;
+  }*/
+}
+.recipe_enjoy{
+  font-size: 25px;
+  color: #431830;
+  text-decoration: underline #d8529f;
+}

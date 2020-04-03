@@ -1,0 +1,19 @@
+.choosing_header{
+  font-size: 40px;
+  font-family: $question-font;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.choosing_list{
+  li {
+    text-decoration: line-through;
+    color: #7e797a;
+    font-family: $handed-font;
+    cursor: pointer;
+    font-size: 35px;
+  }
+  .selected {
+    text-decoration: none;
+    color: #085a14;
+  }
+}
