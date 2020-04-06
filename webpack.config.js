@@ -2,9 +2,7 @@ const path = require("path");
 const autoprefixer = require('autoprefixer');
 const Html = require('html-webpack-plugin');
 const MiniCSS = require("mini-css-extract-plugin");
-
 const entryPath = "RECYFOOD_beta";
-
 module.exports = {
     entry: ["whatwg-fetch", `./${entryPath}/js/app.js`],
     output: {
@@ -57,8 +55,8 @@ module.exports = {
                 loader: "file-loader",
                 options: {
                     name: "[name].[ext]",
-                    publicPath: `/images/`,
-                    outputPath: `/images/`
+                    publicPath: `images/`,
+                    outputPath: `images/`
                 }
             },
             {
@@ -67,8 +65,8 @@ module.exports = {
                 loader: "file-loader",
                 options: {
                     name: "[name].[ext]",
-                    publicPath: `./${entryPath}/fonts/`,
-                    outputPath: `./${entryPath}/fonts/`
+                    publicPath: `fonts/`,
+                    outputPath: `fonts/`
                 }
             }
         ]
