@@ -20,7 +20,7 @@ It promotes the use of basic products, without surprises. Even the simplest ingr
 The application is currently only in Polish.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+...in progress...
 
 ## Technologies
 * ES6, React, Scss
@@ -29,16 +29,15 @@ The application is currently only in Polish.
 Describe how to install / setup your local environement / add link to demo version.
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+...in progress...
+`code-will-be-placed-here`
 
 ## Features
 List of features ready and TODOs for future development
 * Feature 1
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Improvement to be done 1
 
 ## Status
 Project is actually: _in progress_
