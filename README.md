@@ -43,7 +43,7 @@ To-do list:
 Project is actually: _in progress_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+An inspiration for creating this application is the practical need of preparing simple dishes, using food products that we have already had at home. The application is guided by simplicity and recycling. 
 
 ## Contact
 Created by kodola 
