@@ -34,7 +34,10 @@ Describe how to install / setup your local environement / add link to demo versi
 
 ## Features
 List of features ready and TODOs for future development
-* Feature 1
+* Feature 1: Redirecting to relevant subpages using React Router
+* Feature 2: The ability to choose interesting ingredients that are downloaded from the recipe local database (checking that the ingredients do not duplicate)
+* Feature 3: Generating recipe names that can be made from previously selected components
+* Feature 4: 
 
 To-do list:
 * Improvement to be done 1
