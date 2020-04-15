@@ -25,10 +25,13 @@ The application is responsive and currently only in Polish.
 ...in progress...
 
 ## Technologies
-* ES6, React, Scss
+* ES6
+* React 16.11.0
+* Scss
 
 ## Setup
 Link to the current version: https://kodola.github.io/Recyfood/RECYFOOD_beta/build/#/
+The application works with all new browsers.
 
 ## Code Examples
 ...in progress...
@@ -39,7 +42,6 @@ List of features ready and TODOs for future development
 * Feature 1: Redirecting to relevant subpages using React Router
 * Feature 2: The ability to choose interesting ingredients that are downloaded from the recipe local database (checking that the ingredients do not duplicate)
 * Feature 3: Generating recipe names that can be made from previously selected components
-* Feature 4: 
 
 To-do list:
 * Improvement to be done 1: Edition of images to load faster 
@@ -54,4 +56,4 @@ Project status is actually: _in progress_
 An inspiration for creating this application is the practical need of preparing simple dishes, using food products that we have already had at home. The application is guided by simplicity and recycling. 
 
 ## Contact
-Created by kodola 
+Created by kodola
