@@ -1,6 +1,6 @@
 # Recyfood
 
-RECYFOOD is a simple application that generates recipes from the database. It was created in ES6, React and Scss technologies.
+RECYFOOD is a simple application that generates recipes from the local database. It was created in ES6, React and Scss technologies.
 Here is the link to the project: https://kodola.github.io/Recyfood/RECYFOOD_beta/build/#/
 
 
@@ -17,7 +17,9 @@ Here is the link to the project: https://kodola.github.io/Recyfood/RECYFOOD_beta
 ## General info
 RECYFOOD is an application that generates simple recipes from ingredients that we usually have at home. 
 It promotes the use of basic products, without surprises. Even the simplest ingredients can create masterpiece! 
-The application is currently only in Polish.
+The project allowed me to consolidate my knowledge about JavaScript(ES6), React and Scss and put it into practice.
+
+The application is responsive and currently only in Polish.
 
 ## Screenshots
 ...in progress...
@@ -26,7 +28,7 @@ The application is currently only in Polish.
 * ES6, React, Scss
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Link to the current version: https://kodola.github.io/Recyfood/RECYFOOD_beta/build/#/
 
 ## Code Examples
 ...in progress...
@@ -40,10 +42,13 @@ List of features ready and TODOs for future development
 * Feature 4: 
 
 To-do list:
-* Improvement to be done 1
+* Improvement to be done 1: Edition of images to load faster 
+* Improvement to be done 2: Working hamburger menu
+* Improvement to be done 3: Developing the application in English
+
 
 ## Status
-Project is actually: _in progress_
+Project status is actually: _in progress_
 
 ## Inspiration
 An inspiration for creating this application is the practical need of preparing simple dishes, using food products that we have already had at home. The application is guided by simplicity and recycling. 
