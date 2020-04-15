@@ -31,6 +31,7 @@ The application is responsive and currently only in Polish.
 
 ## Setup
 Link to the current version: https://kodola.github.io/Recyfood/RECYFOOD_beta/build/#/
+
 The application works with all new browsers.
 
 ## Code Examples
