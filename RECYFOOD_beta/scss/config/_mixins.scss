@@ -1,15 +1,5 @@
 @mixin desktop {
-  @media screen and (min-width: #{$desktop}) {
-    @content;
-  }
-}
-@mixin large {
-  @media screen and (min-width: 980px) {
-    @content;
-  }
-}
-@mixin between {
-  @media screen and (min-width: #{$desktop}) and (max-width: 780px){
+  @media screen and (min-width: #{$desktop}){
     @content;
   }
 }

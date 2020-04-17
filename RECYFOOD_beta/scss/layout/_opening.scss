@@ -66,18 +66,23 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  //z-index: 1111111;
 }
 .banner_main {
+  margin-top: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+  @include desktop{
+    flex-direction: row;
+  }
 }
 .banner_text{
   font-family: $main-font;
-  font-size: 22vw;
-  margin-top: 50px;
+  font-size: 30vw;
+  @include desktop{
+    font-size: 22vw;
+  }
 }
 .left_part{
   //color: #8b8687;
@@ -108,9 +113,9 @@
   @include desktop {
     font-size: 22px;
   }
-  @include between{
+/*  @include between{
     font-size: 3vw;
-  }
+  }*/
 }
 .next_button{
   text-decoration: none;
