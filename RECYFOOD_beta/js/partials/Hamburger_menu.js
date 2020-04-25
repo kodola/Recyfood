@@ -13,8 +13,8 @@ const HamburgerMenu = () => {
     };
     return (
         <>
-            <a href="#" /!*className="open-menu"*!/ onClick={showMenu}> </a>
-            <nav className={!isMenuVisible/!* && "hide"*!/}>
+            <a href="#" className="open-menu" onClick={showMenu}> </a>
+            <nav className={!isMenuVisible && "hide"}>
                 <ul>
                     <li>
                         <a href="#">główna</a>
@@ -29,7 +29,7 @@ const HamburgerMenu = () => {
                         <a href="#">kontakt</a>
                     </li>
                 </ul>
-                <a href="#" /!*className="close-menu"*!/ onClick={hideMenu}>
+                <a href="#" className="close-menu" onClick={hideMenu}>
                     Zamknij menu
                 </a>
             </nav>
