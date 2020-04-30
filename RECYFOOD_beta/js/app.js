@@ -19,7 +19,7 @@ const App = () => {
                 <header>
                     <div className="container">
                         <div className="hamburger_menu">
-                            <button className="hamburger_button hide"></button>
+                            <button className="hamburger_button"></button>
                             {/*{<HamburgerMenu/>}*/}
                         </div>
                             <nav className="desktop_menu">
