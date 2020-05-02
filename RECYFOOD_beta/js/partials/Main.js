@@ -1,12 +1,5 @@
 import React from "react";
-
 import {HashRouter, Link, NavLink, Route, Switch} from "react-router-dom";
-
-import data from './../data/database';
-import About from "./About";
-import Work from "./Work";
-import Contact from "./Contact";
-import Go from "./Go";
 
 const Main = () => {
 

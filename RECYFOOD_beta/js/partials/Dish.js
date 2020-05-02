@@ -63,27 +63,24 @@ const Dish = ({products, setProducts, match}) => {
         <>
             <section>
                 <div className="banner recipe"> {/*{ idDish }*/}
-                <div className="recipe_napkin"/>
-                <div className="recipe_elements">
-                    <div className="recipe_name">{mainName}</div>
-                    <div className="recipe_funny">{funnyStuff}</div>
-                    <ul className="recipe_ingredients">SKŁADNIKI:
-                    {
-                        dish.items.map(item => <li>- {item.name}: {item.count} {item.unit}</li>)
-                    }</ul>
+                    <div className="recipe_napkin"/>
+                        <div className="recipe_elements">
+                            <div className="recipe_name">{mainName}</div>
+                            <div className="recipe_funny">{funnyStuff}</div>
+                                <ul className="recipe_ingredients">SKŁADNIKI:
+                                    {
+                                        dish.items.map(item => <li>- {item.name}: {item.count} {item.unit}</li>)
+                                    }
+                                </ul>
 
-                    <ol className="recipe_method">SPOSÓB PRZYGOTOWANIA:
-                        {
-                            dish.desc.map( item => <li>{item}</li>)
-                        }
-                    </ol>
-                    <div className="recipe_enjoy">SMACZNEGO!!!</div>
-                    {/*<div>{ingredients}</div>*/}
-                    {/*<div>{units}</div>*/}
-                    {/*<div>{counts}</div>*/}
-                    {/*<div>{mainName}</div>*/}
-                </div>
-                </div>
+                                <ol className="recipe_method">SPOSÓB PRZYGOTOWANIA:
+                                    {
+                                        dish.desc.map( item => <li>{item}</li>)
+                                    }
+                                </ol>
+                            <div className="recipe_enjoy">SMACZNEGO!!!</div>
+                        </div>
+                    </div>
             </section>
             <footer>
                 <div className="footer">

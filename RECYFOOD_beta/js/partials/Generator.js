@@ -82,7 +82,6 @@ const Generator = ({products, setProducts}) => {
                         <p className="selected_products">{products.join(', ')}</p>
                         <p className="selected_second_par">Możesz przyrządzić: </p>
                         <ul className="selected_list">
-                            {/*<li>{recipeName}</li>*/}
                             {chosenRecipe.map((item, index)=> <li key={index} onClick={()=> clicked(item)}><span className="solid"><Link className={"selected_recipe"} to={"/dish/"+item.id} >{item.dishName}</Link></span></li>)}
                         </ul>
                     </div>
