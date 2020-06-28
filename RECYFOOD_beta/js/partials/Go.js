@@ -43,7 +43,6 @@ const Go = ({products, setProducts}) => {
             <section>
                 <div className="banner">
                     <p className="choosing_header">Co masz dzisiaj w lodówce?</p>
-                    {/*<button onClick={() => props.setProducts(['moje pierwszy produkt'])}>click me</button>*/}
                     <ul className="choosing_list">
                         {productsList.map((item, index)=> <li className={ isChoosed(item) ? 'selected' : ''} key={index} onClick={()=> choosed(item)}>{item}</li>)}
                     </ul>

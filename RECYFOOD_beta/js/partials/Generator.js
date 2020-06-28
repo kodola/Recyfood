@@ -30,38 +30,7 @@ const Generator = ({products, setProducts}) => {
        console.log(recipeName);
        console.log(searchName());
 
-    //
-    // const recipeList = [];
-    // const searchRecipe = () => {
-    //     data.forEach(obj => {
-    //         obj.items.forEach(product => {
-    //             recipeList.push(product.name);
-    //         });
-    //     });
-    //     return recipeList;
-    // };
-    //     console.log(recipeList);
-    //     console.log(searchRecipe());
-    //
-    // const objList = [];
-    // const searchObj = () => {
-    //     data.forEach(obj => {
-    //         objList.push(obj.items);
-    //     });
-    //     return objList;
-    // };
-    // console.log(objList);
-    // console.log(searchObj());
-    //
-    // const concreteNames = [];
-    // const checking = () => {
-    //     objList.forEach(tab => {
-    //         concreteNames.push(tab.name);
-    //     });
-    //     return concreteNames;
-    // };
-    // console.log(concreteNames);
-    // console.log(checking);
+
     const objTab = [];
     const clicked = (item) => {
         data.forEach(obj => {
@@ -72,7 +41,6 @@ const Generator = ({products, setProducts}) => {
         });
         console.log(item);
     };
-
 
         return (
             <>

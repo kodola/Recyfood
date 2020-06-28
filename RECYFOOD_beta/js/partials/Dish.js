@@ -7,20 +7,6 @@ const Dish = ({products, setProducts, match}) => {
     console.log(match);
 
     const idDish = parseInt(match.params.id);
-/*
-
-    const objTab = [];
-    const dish1 = () => {
-        data.forEach(obj => {
-            if (obj.id===idDish) {
-                objTab.push(obj.dishName);
-                console.log(objTab);
-            }
-        });
-        return objTab;
-    };
-    console.log(objTab);
-    console.log(idDish);*/
 
     const ingredients = [];
     const units = [];
@@ -49,15 +35,10 @@ const Dish = ({products, setProducts, match}) => {
             if(obj.id===idDish) {
                 mainName.push(obj.dishName);
                 funnyStuff.push(obj.funny);
-                /*description.push(obj.desc)*/
             }
     });
-    console.log(mainName);
-    console.log(funnyStuff);
-/*    const description = [];
-    console.log(description);
-    const a = [...description].map((item, index) => item);
-    console.log(a);*/
+    //console.log(mainName);
+    //console.log(funnyStuff);
 
     return (
         <>
