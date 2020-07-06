@@ -27,12 +27,30 @@
   box-shadow: 1px 1px 5px 1px rgba(126, 87, 17, 0.7);
   margin-left: 10vw;
 }
+.hamburger_open{
+  padding: 10px;
+  height: 140px;
+  margin-top: 0;
+  margin-left: 10vw;
+  background-color: rgba(116, 186, 117, 0.8);
+  color: #562a18;
+  width: 140px;
+  position: fixed;
+  border-radius: 0 5px;
+  z-index: 1100;
+  line-height: 30px;
+    a {
+      text-decoration: none;
+      color: #562a18;
+    }
+}
+
 .desktop_menu{
   display: none;
 }
 
 @include desktop{
-  .hamburger_menu{
+  .hamburger_menu, .hamburger_button{
     display: none;
   }
   .desktop_menu{

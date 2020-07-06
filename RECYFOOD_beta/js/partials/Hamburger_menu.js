@@ -1,40 +1,31 @@
-/*
+
 import React, {useState} from "react";
 import data from "../data/database";
 import {HashRouter, Link, NavLink, Route, Switch} from "react-router-dom";
 
 const HamburgerMenu = () => {
     const [isMenuVisible, setMenuVisible] = useState(false);
-    const showMenu = () => {
-        setMenuVisible(true);
-    };
-    const hideMenu = () => {
-        setMenuVisible(false);
+
+    const toggleMenu = () => {
+        setMenuVisible(prevIsVisible => !prevIsVisible);
     };
     return (
         <>
-            <a href="#" className="open-menu" onClick={showMenu}> </a>
-            <nav className={!isMenuVisible && "hide"}>
+            <HashRouter>
+            <button className="hamburger_button open-menu" onClick={toggleMenu}> </button>
+            {isMenuVisible && (
+            <nav className="hamburger_open">
                 <ul>
-                    <li>
-                        <a href="#">główna</a>
-                    </li>
-                    <li>
-                        <a href="#">o stronie</a>
-                    </li>
-                    <li>
-                        <a href="#">jak to działa?</a>
-                    </li>
-                    <li>
-                        <a href="#">kontakt</a>
-                    </li>
+                    <li><Link to="/">GŁÓWNA</Link></li>
+                    <li><Link to="/about">O APLIKACJI</Link></li>
+                    <li><Link to="/howdoesitwork">JAK TO DZIAŁA?</Link></li>
+                    <li><Link to="/contact">KONTAKT</Link></li>
                 </ul>
-                <a href="#" className="close-menu" onClick={hideMenu}>
-                    Zamknij menu
-                </a>
             </nav>
+            )}
+            </HashRouter>
         </>
     );
 };
 export default HamburgerMenu;
-*/
+

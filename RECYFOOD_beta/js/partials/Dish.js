@@ -37,8 +37,6 @@ const Dish = ({products, setProducts, match}) => {
                 funnyStuff.push(obj.funny);
             }
     });
-    //console.log(mainName);
-    //console.log(funnyStuff);
 
     return (
         <>

@@ -19,8 +19,7 @@ const App = () => {
                 <header>
                     <div className="container">
                         <div className="hamburger_menu">
-                            <button className="hamburger_button"></button>
-                            {/*{<HamburgerMenu/>}*/}
+                            <HamburgerMenu/>
                         </div>
                             <nav className="desktop_menu">
                                 <ul className="hyperlink">
